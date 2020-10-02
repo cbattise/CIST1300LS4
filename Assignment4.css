@@ -1,0 +1,98 @@
+#nav {
+    list-style: none;
+    font-weight: none;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height:40px;
+    overflow: visible;
+}
+
+#nav ul {
+    position: relative;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+
+#nav li {
+    margin: 0px;
+    display: inline;
+    width: auto;
+}
+
+#nav li a {
+    padding: 41px;
+    text-decoration: none;
+    font-weight: none;
+    color: orange;
+    background-color: white;
+    text-align: center;
+}
+
+#nav li a:hover {
+    color: #400000;
+    background-color: white;
+}
+#nav li a:link:active, li a:visited:active {
+     font-weight: bold;
+}
+.pic {
+    text-align: center;
+    display: block;
+}
+.bt {
+    border: none;
+    color: white;
+    padding:10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #400000;
+    border-radius: 2px;
+}
+.bt:hover {
+    background-color: #773C3C;
+    color: white;
+}
+.a  {
+    color: white;
+    text-decoration: none;
+}
+.graph  {
+    text-align:center; 
+    line-height:1.7; 
+    margin-left:13%; 
+    margin-right:13%;
+}
+.table {
+    border-collapse: collapse; 
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+}
+.table table, th, td {
+    border: 5px solid black;
+    padding: 5px;
+    height: 50px
+}
+.form {
+    text-align:left; 
+    line-height:1.7; 
+    margin-left:13%; 
+    margin-right:13%;
+}
+.form input{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+}
